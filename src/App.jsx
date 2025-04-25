@@ -155,6 +155,7 @@ const App = () => {
         // console.log(response.data);
       } catch (error) {
         console.error("Error:", error.message);
+        alert("failed to fetch data");
       }
     };
 
